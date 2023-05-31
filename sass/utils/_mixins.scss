@@ -1,0 +1,62 @@
+@mixin shadow {
+    box-shadow: $btn-shadow $color-shadow;
+}
+
+@mixin darken-shadow {
+    box-shadow:#D5d5d5 3px 10px 5px;
+    transition-duration: 0.25s;
+    
+}
+
+@mixin lighten {
+    background: linear-gradient(-30deg, #9356DC 1%, #FF79DA 80%);
+    transition-duration: 0.25s;
+}
+
+@mixin heart-full {
+    transition: to top .10s ease-in-out;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-weight: 900;
+    font-size: 900;
+    background-image: linear-gradient(to top, #9356DC 2%, #FF79DA 100%);
+    -webkit-text-fill-color:transparent;
+    transition-duration: 1s;
+    
+}
+
+@mixin check__menu {
+        animation:check;
+        animation-fill-mode: forwards;       
+}
+
+
+@keyframes check {
+    0%{
+        transition:transform 10s ;
+        transform:translateX(-100%);
+        animation-delay:3ms;
+        
+    }
+ 
+    100% {
+        transition:transform 10s;
+        transform:translateX(-100%);
+    }
+    
+
+}
+
+
+    
+
+
+
+
+        
+    
+
+
+
+
+

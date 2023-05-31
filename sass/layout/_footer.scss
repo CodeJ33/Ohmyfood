@@ -1,0 +1,31 @@
+.footer {
+    background-color: $footer-bg-color;
+    height:auto;
+    color:white;
+    padding:8px;
+    
+        h4 {
+            font-family: "Shrikhand","Roboto","sans-serif";
+            font-size:1.2rem;
+            padding:16px 0 0 16px;
+            margin: 0;
+            
+            
+        }
+            &__list {
+                list-style-type: none;
+                padding:8px 16px;
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+            
+                .fa:before  {
+                    padding-right:10px;
+                }
+            }
+        a {
+            text-decoration:none;
+            color:inherit;
+        }
+}
+

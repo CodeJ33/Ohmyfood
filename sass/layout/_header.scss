@@ -1,0 +1,7 @@
+.page {
+    @extend %center-flex;
+        & img {
+            height:32px;
+            padding:16px;
+        }
+}

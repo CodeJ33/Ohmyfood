@@ -1,0 +1,14 @@
+.order {
+    text-align:center;
+    background-color: $background-color;
+    padding:16px 16px 57px 16px;
+     &__btn button {
+        @include btn;
+        @include linear;
+        &:hover {
+            @extend %hover-btn;
+            @include darken-shadow;
+            @include lighten;
+        }
+     }
+}

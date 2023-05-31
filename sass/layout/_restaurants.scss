@@ -1,0 +1,128 @@
+.restaurants {
+        background-color:$background-color;
+        padding:0 0 63px 0;
+        margin-top:63px;
+    @media (max-width:992px){
+        display: flex;
+        flex-direction: column;
+            h2 {
+                margin: 50px 20px 10px;
+            }
+    }
+    &__list {
+        display:flex;
+        flex-direction: column;
+        padding:0 16px;
+        gap:16px;
+    }
+   
+
+    &__card {
+        @include darken-shadow;
+        border-radius:20px;
+        height: 252px;
+        list-style-type: none;
+        
+       
+    }
+
+    &__badge {
+        position: absolute;
+        background-color: #99E2D0;
+        right: 10px;
+        border-radius: 2px;
+        width: 80px;
+        height: 29px;
+        padding:8px;
+        margin:25px 25px 0 0;
+         p {
+            margin: 0;
+            padding-top: 6px;
+            font-size: 14px;
+            text-align:center;
+        }
+              
+    }
+
+    &__images {
+        display:flex;
+        flex-direction: column;
+        height:172px;
+        
+        
+    
+        & > img {
+            object-fit: cover;
+            border-radius:20px 20px 0 0;
+            height:172px;
+        }
+
+   
+        
+    }
+
+    
+    &__infoheart {
+        display:flex;
+        justify-content:space-between;
+        align-items: center;
+        padding-left:14px;
+        h3 {
+            margin:20px 0 0 0;
+        }
+            p {
+                margin:4px 0 0 0;
+            }
+    &__info {
+        display:flex;
+        flex-direction: column;
+        height: 78px;
+        padding-left: 14px;
+           
+    }
+
+
+    .fa-heart  {
+        margin-right:24px;
+        margin-top:19px;
+        font-size:1.5rem;
+        z-index:100;
+        background-clip: text;
+        opacity: 1;
+        cursor:pointer;
+        &:hover:before {
+            @include heart-full;
+        }
+    }
+    }
+        
+
+    }
+
+ .restaurants {
+    @media (min-width:992px) {
+    padding: 0 0 30px 0;
+    }
+ }   
+
+.restaurants__list {
+    @media (min-width:992px) {
+        display:flex;
+        flex-direction:row;
+        flex-wrap:wrap;
+        justify-content:center;
+    }
+}
+
+.restaurants__card {
+    @media (min-width:992px) {
+        width:48%;
+       
+            
+        }
+    }
+
+        
+
+        
+
