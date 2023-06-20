@@ -22,10 +22,46 @@
                 .fa:before  {
                     padding-right:10px;
                 }
+
+            li {
+                display:flex;
+                flex-direction: row;
+            }
+            p {
+                margin:0;
+            }
             }
         a {
             text-decoration:none;
             color:inherit;
         }
+
 }
 
+
+@media (min-width:992px){
+    .footer {
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: nowrap;
+        padding-top:57px;
+    
+        &__list {
+        list-style-type: none;
+        padding: 8px 16px;
+        display: flex;
+        flex-direction:row;
+        gap: 10px;
+        }
+
+        .footer__title h4 {
+            padding-right: 57px;
+            padding-left: 87px;
+        }
+
+        .mentions {
+            padding-left:37px;
+        }
+    }
+
+}

@@ -8,7 +8,7 @@
       src="https://kit.fontawesome.com/6511c09961.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="public\css\style.css" >
+    <link rel="stylesheet" href="public/css/style.css" >
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
@@ -34,9 +34,9 @@
             <input type="search" name="city" value="Paris, Belleville" placeholder="Paris, Belleville">
             </div>
         </div>
-        </span>
+
     </nav>
-    </div>
+  
     <div class="order">
         <h1 class="order__h1">Réservez le menu qui vous convient</h1>
         <p>Découvrez des restaurants d'exception, séléctionnés par nos soins</p>
@@ -48,7 +48,7 @@
    
     <!---->
     <main>
-      <section>
+      <section class="document">
 
         <!--Fonctionnement-->
         <div class="function">
@@ -80,25 +80,26 @@
 
         <!--Restaurants-->
         <div class="restaurants">
+          <div class="restaurants__titre">
           <h2>Restaurants</h2>
         
           <ul class="restaurants__list">
           
           <!--Ménilmontant-->
             <li class="restaurants__card">
-              <a href="#">
+              <a href="./pages/lapalettedugout.html">
                 <article>  
                   <div class="restaurants__images">
                     <img src="img/palette.jpg"  alt="">
-                    <span class="restaurants__badge"><p>Nouveau</p></span>
+                    <div class="restaurants__badge"><p>Nouveau</p></div>
                   </div>
                   <div class="restaurants__infoheart">
                     <div class="restaurants__info">
-                      <h3>La palette du gout</h3>
+                      <h3>La palette du goût</h3>
                       <p>Ménilmontant</p>
                     </div>
-                      <span class=restaurants__heart">
-                      <i class="fa-heart far" aria-hidden="true"></i>
+                      <span class="restaurants__heart">
+                      <i class="fa fa-heart"  aria-hidden="true"></i>
                     </span>
                   </div>
                 </article>
@@ -107,11 +108,11 @@
           
           <!--Charonne-->
             <li class="restaurants__card">
-              <a href="#">
+              <a href="./pages/lanoteenchantée.html">
                 <article>
                   <div class="restaurants__images">
                     <img src="img/note.jpg" alt="">
-                    <span class="restaurants__badge"><p>Nouveau</p></span>
+                    <div class="restaurants__badge"><p>Nouveau</p></div>
                   </div>
                   <div class="restaurants__infoheart">
                     <div class="restaurants__info">
@@ -119,7 +120,7 @@
                       <p>Charonne</p>
                     </div>
                       <span class="restaurants__heart">
-                      <i class="fa-heart far" aria-hidden="true"></i>
+                      <i class="fa fa-heart" aria-hidden="true"></i>
                     </span>
                   </div>
                 </article>
@@ -129,11 +130,10 @@
 
           <!--Cité Rouge-->
             <li class="restaurants__card">
-              <a href="#">
+              <a href="./pages/alafrançaise.html">
                 <article>
                   <div class="restaurants__images">
                     <img src="img/française.jpg" alt="">
-                    <span class="restaurants__badge"><p>Nouveau</p></span>
                   </div>
                   <div class="restaurants__infoheart">
                     <div class="restaurants__info">
@@ -141,7 +141,7 @@
                       <p>Cité Rouge</p>
                     </div>
                       <span class="restaurants__heart">
-                      <i class="fa-heart far" aria-hidden="true"></i>
+                      <i class="fa fa-heart" aria-hidden="true"></i>
                     </span>
                   </div>
                 </article>
@@ -150,11 +150,10 @@
 
           <!--Le délice des sens-->
             <li class="restaurants__card">
-              <a href="#">
+              <a href="./pages/ledelicedessens.html">
                 <article>
                   <div class="restaurants__images">
                     <img src="img/délice.jpg" alt="">
-                    <span class="restaurants__badge"><p>Nouveau</p></span>
                   </div>
                   <div class="restaurants__infoheart">
                     <div class="restaurants__info">
@@ -162,14 +161,16 @@
                         <p>Folie-Méricourt</p>
                     </div>
                     <span class="restaurants__heart">
-                      <i class="fa-heart far" aria-hidden="true"></i>
+                      <i class="fa fa-heart" aria-hidden="true"></i>
                     </span>
                   </div>
                 </article>
               </a>
             </li>
-          </div>
-        </ul>
+          </ul>
+        </div>
+        
+      </div>
         </section>
       </main>
 
@@ -179,12 +180,11 @@
         <h4>ohmyfood</h4>
       </div>
         <ul class="footer__list">
-          <li i class="fa solid fa-utensils"></i><a href="#">Proposer un restaurant</a></li>
-          <li i class="fa solid fa-handshake-angle"></i><a href="#">Devenir partenaire</a></li>
-          <li><a href="#">Mentions légales</a></li>
+          <li> <p> <i class="fa solid fa-utensils"></i></p><a href="#">Proposer un restaurant</a></li>
+          <li> <p> <i class="fa solid fa-handshake-angle"></i></p><a href="#">Devenir partenaire</a></li>
+          <li class="mentions"><a href="#">Mentions légales</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
-      </div>
     </footer>
 
   </body>

@@ -17,208 +17,250 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
   </head>
   <body>
-    <div class="loader">
-      <div class="loader__one"></div>
+
      
-  </div>
+  
     <header>
       <div class="headermenu">
+        <a href="../index.html">
         <i class="fa-solid fa-arrow-left"></i>
+        </a>
         <img class="headermenu__img" src="../img/ohmyfood.png" alt="logo ohmyfood">
       </div>
     </header>  
     <img class="cover_image" src="../img/note.jpg" alt="">
     <main>
-        <h2>La note enchantée</h2>
-        <section>
-            <h3>Entrées</h3>
-            <div>
-                <ul>
-                    <li>
-                        <a href="#">
-                            <article>  
-                              <div class="restaurants__infoheart">
-                                <div class="restaurants__info">
-                                  <h3>Ravioles de foie gras</h3>
-                                  <p>Accompagnés de leur crème à la truffe</p>
-                                </div>
-                                  <span class=restaurants__heart">
-                                  <i class="fa-solid fa-check" aria-hidden="true">25€</i>
-                                </span>
-                              </div>
-                            </article>
-                          </a>   
-                    </li>
-                    <li>
-                        <a href="#">
-                            <article>  
-                              <div class="restaurants__infoheart">
-                                <div class="restaurants__info">
-                                  <h3>Caviar osciètre </h3>
-                                  <p>Sur blini à la farine de blé noir</p>
-                                </div>
-                                  <span class=restaurants__heart">
-                                  <i class="fa-solid fa-check" aria-hidden="true">35€</i>
-                                </span>
-                              </div>
-                            </article>
-                          </a>   
-                    </li>
-                    <li>
-                        <a href="#">
-                            <article>  
-                              <div class="restaurants__infoheart">
-                                <div class="restaurants__info">
-                                  <h3>Homard et espuma de potiron</h3>
-                                  <p>Mariné aux zestes d'orange</p>
-                                </div>
-                                  <span class=restaurants__heart">
-                                  <i class="fa-solid fa-check" aria-hidden="true">20€</i>
-                                </span>
-                              </div>
-                            </article>
-                          </a>   
-                    </li>
-                    <li>
-                      <a href="#">
-                          <article>  
-                            <div class="restaurants__infoheart">
-                              <div class="restaurants__info">
-                                <h3>Foie gras de canard cuit entier</h3>
-                                <p>Confiture de figue et pain toasté</p>
-                              </div>
-                                <span class=restaurants__heart">
-                                <i class="fa-solid fa-check" aria-hidden="true">35€</i>
-                              </span>
-                            </div>
-                          </article>
-                        </a>   
-                  </li>
 
-                </ul>
-            </div>
-        </section>
-        <section>
-        <h3>Plats</h3>
-        <div>
-            <ul>
-                <li>
-                    <a href="#">
-                        <article>  
-                          <div class="restaurants__infoheart">
-                            <div class="restaurants__info">
-                              <h3>Noix de coquilles Saint-Jacques</h3>
-                              <p>Sur lit de purée de céleri-rave</p>
-                            </div>
-                              <span class=restaurants__heart">
-                              <i class="fa-solid fa-check" aria-hidden="true">40€</i>
-                            </span>
-                          </div>
-                        </article>
-                      </a>   
-                </li>
-                <li>
-                    <a href="#">
-                        <article>  
-                          <div class="restaurants__infoheart">
-                            <div class="restaurants__info">
-                              <h3>Langoustine poêlée</h3>
-                              <p>Purée de patate douce</p>
-                            </div>
-                              <span class=restaurants__heart">
-                              <i class="fa-solid fa-check" aria-hidden="true">35€</i>
-                            </span>
-                          </div>
-                        </article>
-                      </a>   
-                </li>
-                <li>
-                    <a href="#">
-                        <article>  
-                          <div class="restaurants__infoheart">
-                            <div class="restaurants__info">
-                              <h3>Mijoté de queue de boeuf </h3>
-                              <p>Et riz sauvage aux zestes de citron</p>
-                            </div>
-                              <span class=restaurants__heart">
-                              <i class="fa-solid fa-check" aria-hidden="true">44€</i>
-                            </span>
-                          </div>
-                        </article>
-                      </a>   
-                </li>
-            </ul>
+      <section class="menuall">
+        <div class="menuall__title">
+          <h2> À la française</h2>
+          <i class="fa fa-heart" aria-hidden="true"></i>
         </div>
-        </section>
-        <section>
-            <h3>Desserts</h3>
+          
+          <section class="starter">
+              <h3 class="starter__title">Entrées</h3>
+              <div>
+                  <ul class="menuall__bloc"  >
+                      <li class="menuall__btn">
+                          <a href="#">
+                              <article class="menuall__content">  
+                                  <div class="menuall__txt">
+                                    <h4>Ravioles de foie gras</h4>
+                                    <p>Accompagnées de leur crème à la truffe</p>
+                                  </div>
+                                  <span class="menuall__price">
+                                    25€
+                                  </span>
+                                  <div class="menuall__arrow">
+                                    <div class="circle">
+                                      <i  class="fa-solid fa-check" aria-hidden="true"></i>
+                                    </div>      
+                                  </div> 
+                              </article>
+                            </a>   
+                      </li>
+                      <li class="menuall__btn">
+                          <a href="#">
+                              <article class="menuall__content" >  
+                                  <div class="menuall__txt">
+                                    <h4>Caviar osciètre</h4>
+                                    <p>Sur blini à la farine de blé noir</p>
+                                  </div>
+                                  <span class="menuall__price">
+                                    35€
+                                  </span>
+                                  <div class="menuall__arrow">
+                                    <div class="circle">
+                                      <i  class="fa-solid fa-check" aria-hidden="true"></i>
+                                    </div>      
+                                  </div> 
+                              </article>
+                          </a>   
+                      </li>
+                      <li class="menuall__btn">
+                          <a href="#">
+                              <article class="menuall__content">  
+                                  <div class="menuall__txt">
+                                    <h4>Homard et espuma de potiron</h4>
+                                    <p>Marinés aux zestes d'orange</p>
+                                  </div>
+                                  <span class="menuall__price">
+                                    20€
+                                  </span>
+                                  <div class="menuall__arrow">
+                                    <div class="circle">
+                                      <i  class="fa-solid fa-check" aria-hidden="true"></i>
+                                    </div>      
+                                  </div> 
+                              </article>    
+                            </a>   
+                      </li>
+                      <li class="menuall__btn">
+                        <a href="#">
+                            <article class="menuall__content">  
+                                <div class="menuall__txt">
+                                  <h4>Foie gras de canard cuit entier</h4>
+                                  <p>Confiture de figue et pain toasté</p>
+                                </div>
+                                <span class="menuall__price">
+                                  35€
+                                </span>
+                                <div class="menuall__arrow">
+                                  <div class="circle">
+                                    <i  class="fa-solid fa-check" aria-hidden="true"></i>
+                                  </div>      
+                                </div> 
+                            </article>    
+                          </a>   
+                    </li>
+                  </ul>
+              </div>
+          </section>
+          
+          <section class="dish">
+            <h3>Plats</h3>
             <div>
-                <ul>
-                    <li>
-                      <a href="#">
-                        <article>  
-                          <div class="restaurants__infoheart">
-                            <div class="restaurants__info">
-                              <h3>Macaron noisette et chocolat</h3>
-                              <p>Glace au caramel brun et sel de Guérande</p>
-                            </div>
-                              <span class=restaurants__heart">
-                              <i class="fa-solid fa-check" aria-hidden="true">18€</i>
-                            </span>
-                          </div>
-                        </article>
-                      </a>   
+                <ul class="menuall__bloc">
+                    <li class="menuall__btn">
+                        <a href="#">
+                            <article class="menuall__content">  
+                                <div class="menuall__txt">
+                                  <h4>Noix de coquilles Saint-Jacques</h4>
+                                  <p>Sur lit def purée de céleri-rave</p>
+                                </div>
+                                <span class="menuall__price">
+                                  40€
+                                </span>
+                                <div class="menuall__arrow">
+                                  <div class="circle">
+                                    <i  class="fa-solid fa-check" aria-hidden="true"></i>
+                                  </div>      
+                                </div> 
+                            </article>
+                          </a>   
                     </li>
-                    <li>
-                      <a href="#">
-                        <article>  
-                          <div class="restaurants__infoheart">
-                            <div class="restaurants__info">
-                              <h3> Baba au rhum revisité </h3>   
-                              <p>Avec son coulis de citron</p>                          
-                              <span class=restaurants__heart">
-                              <i class="fa-solid fa-check" aria-hidden="true">22€</i>
-                            </span>
-                          </div>
-                        </article>
-                      </a>   
+                    <li class="menuall__btn">
+                        <a href="#">
+                            <article class="menuall__content">                           
+                                <div class="menuall__txt">
+                                  <h4>Langoustine poêlée</h4>
+                                  <p>Purée de patate douce</p>
+                                </div>
+                                <span class="menuall__price">
+                                  35€
+                                </span>
+                                <div class="menuall__arrow">
+                                  <div class="circle">
+                                    <i  class="fa-solid fa-check" aria-hidden="true"></i>
+                                  </div>      
+                                </div> 
+                            </article>
+                          </a>   
                     </li>
-                    <li>
-                      <a href="#">
-                        <article>  
-                          <div class="restaurants__infoheart">
-                            <div class="restaurants__info">
-                              <h3>Tarte au citron meringuée </h3>
-                              <p>Déstructurée</p>
-                            </div>
-                              <span class=restaurants__heart">
-                              <i class="fa-solid fa-check" aria-hidden="true">23€</i>
-                            </span>
-                          </div>
-                        </article>
-                      </a>   
+                    <li class="menuall__btn">
+                        <a href="#">
+                            <article class="menuall__content">  
+                                <div class="menuall__txt">
+                                  <h4>Mijoté de queue de boeuf</h4>
+                                  <p>Et riz sauvage aux zestes de citron</p>
+                                </div>
+                                <span class="menuall__price">
+                                  45€
+                                </span>
+                                <div class="menuall__arrow">
+                                  <div class="circle">
+                                    <i  class="fa-solid fa-check" aria-hidden="true"></i>
+                                  </div>      
+                                </div> 
+                            </article>
+                          </a>   
                     </li>
                 </ul>
             </div>
             </section>
-            <span class="order__btn">
-              <button type="button">Commander</button>
-              </span>
-    </main>
+            
+
+
+        
+            <section class="dessert">
+              <h3>Desserts</h3>
+              <div>
+                  <ul class="menuall__bloc">
+                      <li class="menuall__btn">
+                        <a href="#">
+                          <article class="menuall__content" >  
+                            <div class="menuall__txt">
+                                <h4>Macaron noisette et chocolat</h4>
+                                <p>Glace au caramel brun et sel de Guérande</p>
+                              </div>
+                              <span class="menuall__price">
+                                18€
+                              </span>
+                              <div class="menuall__arrow">
+                                <div class="circle">
+                                  <i  class="fa-solid fa-check" aria-hidden="true"></i>
+                                </div>      
+                              </div> 
+                          </article>
+                        </a>   
+                      </li>
+                      <li class="menuall__btn">
+                        <a href="#">
+                          <article class="menuall__content" > 
+                              <div class="menuall__txt">
+                                <h4>Baba au rhum revisité</h4>   
+                                <p>Avec son coulis de citron</p> 
+                            </div>                         
+                            <span class="menuall__price">
+                              22€
+                            </span>
+                            <div class="menuall__arrow">
+                              <div class="circle">
+                                <i  class="fa-solid fa-check" aria-hidden="true"></i>
+                              </div>      
+                            </div> 
+                          </article>
+                        </a>   
+                      </li>
+                      <li class="menuall__btn">
+                        <a href="#">
+                          <article class="menuall__content">  
+                              <div class="menuall__txt" >
+                                <h4>Tarte au citron meringuée</h4>
+                                <p>Destructurée</p>
+                              </div>
+                              <span class="menuall__price">
+                                23€
+                              </span>
+                              <div class="menuall__arrow">
+                                <div class="circle">
+                                  <i  class="fa-solid fa-check" aria-hidden="true"></i>
+                                </div>      
+                              </div> 
+                          </article>
+                        </a>   
+                      </li>
+                  </ul>
+              </div>
+              </section>
+              <span class="order__btn">
+                <button type="button">Commander</button>
+                </span>
+        </section>
+      </main>
 
 <!--Pied de page-->
     <footer class="footer">
       <div class="footer__title">
         <h4>ohmyfood</h4>
       </div>
-        <ul class="footer__list">
-          <li i class="fa solid fa-utensils"></i><a href="#">Proposer un restaurant</a></li>
-          <li i class="fa solid fa-handshake-angle"></i><a href="#">Devenir partenaire</a></li>
-          <li><a href="#">Mentions légales</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </div>
-    </footer>
+      <ul class="footer__list">
+        <li> <p> <i class="fa solid fa-utensils"></i></p><a href="#">Proposer un restaurant</a></li>
+        <li> <p> <i class="fa solid fa-handshake-angle"></i></p><a href="#">Devenir partenaire</a></li>
+        <li class="mentions"><a href="#">Mentions légales</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+  </footer>
 
   </body>
 </html>
