@@ -147,10 +147,10 @@ h4 {
   z-index: 1;
   position: relative;
 }
-.menuall h2 {
+.menuall h1 {
   font-family: "Shrikhand", "sans-serif";
 }
-.menuall h2, .menuall h3 {
+.menuall h1, .menuall h3 {
   padding-left: 15px;
 }
 @media (min-width: 992px) {
@@ -278,6 +278,7 @@ h4 {
 }
 .menuall .menuall__content:hover .menuall__arrow {
   width: 59px;
+  height: 69px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -310,6 +311,7 @@ h4 {
   visibility: hidden;
   flex-shrink: 0;
   width: 0;
+  height: 69px;
   overflow: hidden;
   transition: all 0.4s ease-in-out;
 }
@@ -659,7 +661,7 @@ h4 {
   color: white;
   padding: 8px;
 }
-.footer h4 {
+.footer .footer__title {
   font-family: "Shrikhand", "Roboto", "sans-serif";
   font-size: 1.2rem;
   padding: 16px 0 0 16px;
@@ -701,7 +703,7 @@ h4 {
     flex-direction: row;
     gap: 10px;
   }
-  .footer .footer__title h4 {
+  .footer .footer__title {
     padding-right: 57px;
     padding-left: 87px;
   }

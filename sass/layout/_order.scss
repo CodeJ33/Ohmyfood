@@ -8,7 +8,7 @@
         &:hover {
             @extend %hover-btn;
             @include darken-shadow;
-            @include lighten;
+            @include lighten-btn;
         }
      }
 } 
