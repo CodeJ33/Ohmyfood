@@ -3,9 +3,9 @@
 }
 
 @mixin darken-shadow {
-    box-shadow:#D5d5d5 3px 10px 5px;
+    box-shadow: #D5d5d5 3px 10px 5px;
     transition-duration: 0.25s;
-    
+
 }
 
 @mixin lighten-btn {
@@ -15,11 +15,12 @@
 
 
 
- @mixin heart-full {
+@mixin heart-full {
     font-weight: 900;
-    background-position-y:100%;
-    -webkit-text-stroke-color:#00000000;
-} 
+    background-position-y: 100%;
+    -webkit-text-stroke-color: #00000000;
+    transition: 0.2s ease-in-out;
+}
 
 
 
@@ -30,7 +31,7 @@
 
 @mixin turn {
     transition: all 0.7s ease-in-out;
-    transform:rotate(360deg); 
+    transform: rotate(360deg);
 }
 
 @mixin checkbox {
@@ -38,12 +39,13 @@
 
     @keyframes checkbox {
         0% {
-            transform:translateX(150%);
+            transform: translateX(150%);
         }
+
         100% {
-            transform:translateX(0%);
+            transform: translateX(0%);
         }
-      
+
     }
 }
 
@@ -56,14 +58,14 @@
 
     @keyframes fade {
         from {
-            opacity:0;
-            transform:translateY(10%);
-            
+            opacity: 0;
+            transform: translateY(10%);
+
         }
 
         to {
-            opacity:1;
-            transform:translateY(0%);
+            opacity: 1;
+            transform: translateY(0%);
         }
     }
 }
@@ -71,48 +73,38 @@
 /*Animation coeur arrivée */
 
 @mixin heart-arrival {
-    animation : fadein 0.4s ease-in-out;
-    
+    animation: fadein 0.5s ease-in-out;
+
     @keyframes fadein {
         from {
-            opacity:0;
-            
-            
+            opacity: 0;
+
+
         }
 
         to {
-            opacity:1;
-            
+            opacity: 1;
+
         }
     }
 }
 
 
+/* Animation coeur */
 
 
-
-
-
-
-
-
-   
-
-
-
-
-
-
-
-    
-
-
-
-
-        
-    
-
-
-
-
-
+@mixin heart {
+    background: rgb(255, 255, 255);
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 50%, (#9356DC 25%, #FF79DA 100%));
+    background-position-y: 0%;
+    background-size: 100% 200%;
+    background-clip: text;
+    color: transparent;
+    stroke-width: 1px;
+    text-decoration: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+    transition: all 0.4s ease-in-out;
+}

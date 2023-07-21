@@ -1,45 +1,55 @@
 .function {
-    @media (max-width:992px){
+    @media (max-width:992px) {
         display: flex;
         flex-direction: column;
     }
 
-        h2 {
-            margin: 50px 20px 10px;
-        }
-        &__list {
-        align-items:center;
-        margin:0;
-        padding:16px;
+    h2 {
+        margin: 50px 20px 10px;
     }
-        &__btn {
-            display:flex;
-            align-items: center;
-            background-color: #F6F6F6;
-            border-radius: 25px;
-            margin-bottom:25px;
-            padding:24px 0;
-            flex-grow:1;
-            @include shadow;
-            &:hover {
-                @include darken-shadow;
-                background-color: lighten(#e7dbdb,10%);
-         
-          }
 
-          i {
-            color:grey;
-            padding:0 16px;
-          }
+    &__list {
+        align-items: center;
+        margin: 0;
+        padding: 16px;
+    }
+
+    &__btn {
+        display: flex;
+        align-items: center;
+        background-color: #F6F6F6;
+        border-radius: 25px;
+        margin-bottom: 25px;
+        padding: 24px 0;
+        flex-grow: 1;
+        @include shadow;
+
+        &:hover {
+            @include darken-shadow;
+            background-color: lighten(#e7dbdb, 10%);
 
         }
 
-        
+        i {
+            color: grey;
+            padding: 0 16px;
+        }
+
+        h3 {
+            margin: 0;
+            font-size: 1rem;
+            text-transform: none;
+            font-weight: 700;
+        }
+
+    }
+
+
 }
 
 .function__circle {
     display: flex;
-    align-items:center;
+    align-items: center;
     justify-content: center;
     width: 24px;
     height: 24px;
@@ -47,25 +57,25 @@
     border: 2px solid #f2f2f2;
     margin-left: -14px;
     background-color: $main-color;
-    color:#FFF;
+    color: #FFF;
 
-} 
+}
 
 .function__list {
     @media (min-width:992px) {
         display: flex;
         flex-direction: row;
-        gap:32px;
-        padding:32px 0 32px 0;
+        gap: 32px;
+        padding: 32px 0 32px 0;
     }
 }
 
 .function {
-    @media (min-width:992px){
-       margin: 0 171px 0 171px;
-    
+    @media (min-width:992px) {
+        margin: 0 171px 0 171px;
+
         h2 {
-            margin:50px 0px 10px;
+            margin: 50px 0px 10px;
 
         }
     }

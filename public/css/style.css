@@ -20,6 +20,7 @@
 /* Animation choix du menu */
 /*Animation arrivée menu */
 /*Animation coeur arrivée */
+/* Animation coeur */
 .loader {
   width: 100%;
   height: 100%;
@@ -150,7 +151,8 @@ h4 {
 .menuall h1 {
   font-family: "Shrikhand", "sans-serif";
 }
-.menuall h1, .menuall h3 {
+.menuall h1,
+.menuall h3 {
   padding-left: 15px;
 }
 @media (min-width: 992px) {
@@ -172,20 +174,23 @@ h4 {
   justify-content: space-between;
 }
 .menuall .fa-heart {
-  animation: fadein 0.4s ease-in-out;
-  margin-right: 24px;
-  margin-top: 25px;
-  font-size: 1.5rem;
+  animation: fadein 0.5s ease-in-out;
   background: rgb(255, 255, 255);
   background-image: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 50%, #9356DC 25%, #FF79DA 100%);
   background-position-y: 0%;
   background-size: 100% 200%;
   background-clip: text;
+  color: transparent;
+  stroke-width: 1px;
+  text-decoration: transparent;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-color: black;
   -webkit-text-stroke-width: 1px;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  margin-right: 24px;
+  margin-top: 25px;
+  font-size: 1.5rem;
 }
 @keyframes fadein {
   from {
@@ -199,6 +204,7 @@ h4 {
   font-weight: 900;
   background-position-y: 100%;
   -webkit-text-stroke-color: rgba(0, 0, 0, 0);
+  transition: 0.2s ease-in-out;
 }
 .menuall h3::after {
   content: "";
@@ -270,7 +276,8 @@ h4 {
   padding: 14px 0;
   overflow: hidden;
 }
-.menuall .menuall__txt h4, .menuall .menuall__txt p {
+.menuall .menuall__txt h4,
+.menuall .menuall__txt p {
   margin: 0 0 0 10px;
   white-space: nowrap;
   overflow: hidden;
@@ -354,12 +361,14 @@ h4 {
   background: #9356DC;
   box-shadow: #D5d5d5 3px 5px 5px;
   border-radius: 30px;
-  height: 50px;
   margin-bottom: 10px;
   border: none;
   cursor: pointer;
   font-size: 16px;
   padding: 16px 32px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  line-height: 18.75px;
   background: linear-gradient(-30deg, #9356DC 2%, #FF79DA 100%);
 }
 .menuall .order__btn__btn button:hover {
@@ -400,7 +409,9 @@ h4 {
   }
 }
 @media (min-width: 992px) {
-  .menuall .starter, .menuall .dish, .menuall .dessert {
+  .menuall .starter,
+  .menuall .dish,
+  .menuall .dessert {
     width: 70%;
   }
 }
@@ -439,12 +450,14 @@ h4 {
   background: #9356DC;
   box-shadow: #D5d5d5 3px 5px 5px;
   border-radius: 30px;
-  height: 50px;
   margin-bottom: 10px;
   border: none;
   cursor: pointer;
   font-size: 16px;
   padding: 16px 32px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  line-height: 18.75px;
   background: linear-gradient(-30deg, #9356DC 2%, #FF79DA 100%);
 }
 .order__btn button:hover {
@@ -486,6 +499,12 @@ h4 {
 .function__btn i {
   color: grey;
   padding: 0 16px;
+}
+.function__btn h3 {
+  margin: 0;
+  font-size: 1rem;
+  text-transform: none;
+  font-weight: 700;
 }
 
 .function__circle {
@@ -593,20 +612,23 @@ h4 {
   padding-left: 14px;
 }
 .restaurants__infoheart .fa-heart {
-  animation: fadein 0.4s ease-in-out;
-  margin-right: 24px;
-  margin-top: 25px;
-  font-size: 1.5rem;
+  animation: fadein 0.5s ease-in-out;
   background: rgb(255, 255, 255);
   background-image: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 50%, #9356DC 25%, #FF79DA 100%);
   background-position-y: 0%;
   background-size: 100% 200%;
   background-clip: text;
+  color: transparent;
+  stroke-width: 1px;
+  text-decoration: transparent;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-color: black;
   -webkit-text-stroke-width: 1px;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  margin-right: 24px;
+  margin-top: 25px;
+  font-size: 1.5rem;
 }
 @keyframes fadein {
   from {
@@ -620,6 +642,7 @@ h4 {
   font-weight: 900;
   background-position-y: 100%;
   -webkit-text-stroke-color: rgba(0, 0, 0, 0);
+  transition: 0.2s ease-in-out;
 }
 @media (min-width: 992px) {
   .restaurants .restaurants {

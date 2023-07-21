@@ -3,12 +3,14 @@
     background: #9356DC;
     box-shadow: #D5d5d5 3px 5px 5px;
     border-radius: 30px;
-    height: 50px;
     margin-bottom: 10px;
     border: none;
     cursor: pointer;
-    font-size:16px;
-    padding:16px 32px;
+    font-size: 16px;
+    padding: 16px 32px;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    line-height: 18.75px;
 }
 
 @mixin linear {

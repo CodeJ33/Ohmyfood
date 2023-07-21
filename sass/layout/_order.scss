@@ -1,14 +1,16 @@
 .order {
-    text-align:center;
+    text-align: center;
     background-color: $background-color;
-    padding:16px 48px 15px 49px;
-     &__btn button {
+    padding: 16px 48px 15px 49px;
+
+    &__btn button {
         @include btn;
         @include linear;
+
         &:hover {
             @extend %hover-btn;
             @include darken-shadow;
             @include lighten-btn;
         }
-     }
-} 
+    }
+}
