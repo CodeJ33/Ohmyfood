@@ -1,6 +1,10 @@
+/* Effet ombre */
+
 @mixin shadow {
     box-shadow: $btn-shadow $color-shadow;
 }
+
+
 
 @mixin darken-shadow {
     box-shadow: #D5d5d5 3px 10px 5px;
@@ -8,20 +12,12 @@
 
 }
 
+
+
 @mixin lighten-btn {
     background: linear-gradient(-30deg, #9356DC 1%, #FF79DA 80%);
     transition-duration: 0.25s;
 }
-
-
-
-@mixin heart-full {
-    font-weight: 900;
-    background-position-y: 100%;
-    -webkit-text-stroke-color: #00000000;
-    transition: 0.2s ease-in-out;
-}
-
 
 
 
@@ -90,6 +86,7 @@
 }
 
 
+
 /* Animation coeur */
 
 
@@ -107,4 +104,13 @@
     -webkit-text-stroke-color: black;
     -webkit-text-stroke-width: 1px;
     transition: all 0.4s ease-in-out;
+}
+
+
+/* Remplissage du coeur */
+
+@mixin heart-full {
+    font-weight: 900;
+    background-position-y: 100%;
+    -webkit-text-stroke-color: #00000000;
 }
