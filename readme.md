@@ -7,6 +7,8 @@ Votre mission est de développer un site “mobile first” qui répertorie les 
 
 ## Objectif :
 
+* Respecter le design de la maquette [Figma ](https://www.figma.com/design/t4449fzDnwGYmzuwQdu87V/Maquettes-Ohmyfood-(mobile-et-desktop)?node-id=0-1)
+
 * Intégrer et dynamiser une page web avec des animations CSS en utilisant le préprocesseur Sass.
 
 ## Informations :
