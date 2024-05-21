@@ -8,3 +8,11 @@ Votre mission est de développer un site “mobile first” qui répertorie les 
 ## Objectif :
 
 * Intégrer et dynamiser une page web avec des animations CSS en utilisant le préprocesseur Sass.
+
+## Informations :
+
+* Technologies autorisées: HTML / CSS / Sass
+
+* Technologies Recommandées: HTML / Sass
+
+* Technologies Interdites: Javascript / Frameworks CSS / Inline CSS
